@@ -96,7 +96,7 @@ with st.sidebar:
     if provider == "Google Gemini":
         model = st.selectbox(
             "Gemini Model",
-            ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"],
+            ["gemini-3.8-flash", "gemini-3.5-flash-lite"],
             index=0
         )
         api_key = st.text_input(
